@@ -62,10 +62,9 @@ class tmhOAuth {
         // for security this should always be set to true.
         'curl_ssl_verifypeer'        => true,
 
-        // you can get the latest cacert.pem from here http://curl.haxx.se/ca/cacert.pem
+        // you can get the latest cacert.pem from here https://curl.haxx.se/ca/cacert.pem
         'curl_cainfo'                => dirname(__FILE__) . DIRECTORY_SEPARATOR . 'cacert.pem',
         'curl_capath'                => dirname(__FILE__),
-
         'curl_followlocation'        => false, // whether to follow redirects or not
 
         // support for proxy servers
@@ -89,7 +88,6 @@ class tmhOAuth {
     date_default_timezone_set($this->config['timezone']);
   }
 
-
   /**
    * Sets the useragent for PHP to use
    * If '$this->config['user_agent']' already has a value it is used instead of one
@@ -100,13 +98,11 @@ class tmhOAuth {
   private function set_user_agent() {
     if (!empty($this->config['user_agent']))
       return;
-
     if ($this->config['curl_ssl_verifyhost'] && $this->config['curl_ssl_verifypeer']) {
       $ssl = '+SSL';
     } else {
       $ssl = '-SSL';
     }
-
     $ua = 'tmhOAuth ' . self::VERSION . $ssl . ' - //github.com/themattharris/tmhOAuth';
     $this->config['user_agent'] = $ua;
   }
