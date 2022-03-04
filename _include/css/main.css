@@ -510,7 +510,6 @@ header #logo a {
 	display: block;
 	opacity: 1;
 	filter: alpha(opacity=100);
-	
 	-webkit-transition: opacity 0.25s ease-in-out 0s;	
 	   -moz-transition: opacity 0.25s ease-in-out 0s;
 		 -o-transition: opacity 0.25s ease-in-out 0s;
