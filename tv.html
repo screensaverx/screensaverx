@@ -60,12 +60,8 @@ function getParameterByName(name, url = window.location.href)
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
-
 var v = getParameterByName('v');
 var title = getParameterByName('title');
-
-alert(v);
-alert(title);
 </script>
 
 <!-- VIDEO EMBEDD -->
