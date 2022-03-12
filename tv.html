@@ -70,19 +70,23 @@ var title = getParameterByName('title');
 		<div class="row">
 			<div class="span12">
 				<div class="title-page">
-					<h2 class="title">
-						<script>document.write(title);</script>
+					<h2 class="title" id="title3">
+						DD News
 					</h2>
 				</div>
 			</div>
 		</div>
-		<div class="row youtube-video-container">
-			<iframe src="https://www.youtube.com/embed/WB-y7_ymPJ4?rel=0&modestbranding=1&autohide=1&mute=0&showinfo=0&controls=1&autoplay=1&enablejsapi=1" style="position:absolute; width:100%; height:100%;" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
-			<script>
-				//document.write("<embed class='youtube-video-container' src='https://www.youtube.com/embed/"+v+"?autohide=1&autoplay=1' wmode='transparent' type='video/mp4' width='100%' height='300' allow='autoplay; encrypted-media; picture-in-picture' allowfullscreen>");
-				//document.write("<iframe src='https://www.youtube.com/embed/"+v+"?autoplay=1&mute=0&showinfo=0&rel=0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
-			</script>
+		<div class="row youtube-video-container" id="youtube">
+			<iframe src='https://www.youtube.com/embed/SIOM-RyamcI?rel=0&modestbranding=1&autohide=1&mute=0&showinfo=0&controls=1&autoplay=1&enablejsapi=1' style='position:absolute; width:100%; height:100%;' width='100%' height='100%' frameborder='0' allowfullscreen></iframe>
 		</div>
+
+		<script>
+		function changeMe(title, id)
+		{
+			document.getElementById("title3").innerHTML = title;
+			document.getElementById("youtube").innerHTML = "<iframe src='https://www.youtube.com/embed/"+id+"?rel=0&modestbranding=1&autohide=1&mute=0&showinfo=0&controls=1&autoplay=1&enablejsapi=1' style='position:absolute; width:100%; height:100%;' width='100%' height='100%' frameborder='0' allowfullscreen></iframe>";
+		}
+		</script>
 	</div>
 </div>
 <!-- VIDEO EMBEDD END -->
@@ -93,23 +97,23 @@ var title = getParameterByName('title');
 	<div class="container">
 		<div class="row"><div class="span12"><div class="title-page"><h2 class="title">HINDI NEWS:</h2></div></div></div>
 		<div class="row margin-15">
-			<a href="tv.html?v=SIOM-RyamcI&title=DD News"><img src="https://yt3.ggpht.com/ytc/AKedOLQtlX3rWNbvBfc9eOCnu5jajwWVrxwe9NvqtLBB1w=s48-c-k-c0x00ffffff-no-rj" class="thumb"></a>
-			<a href="tv.html?v=nyd-xznCpJc&title=ABP News"><img src="https://yt3.ggpht.com/ytc/AKedOLRUToLipy4MP82mnh40IvVCb4gOykJssP3S4anLCcE=s48-c-k-c0x00ffffff-no-rj" class="thumb"></a>
-			<a href="tv.html?v=Xmm3Kr5P1Uw&title=India TV"><img src="https://yt3.ggpht.com/y5S847YDNlDZNUUk3xmEfVMUDu2XSe0yAU_qvIpbwKi5VgIYQQc3FGeOANbgu-36sBEDpAwDAQ=s48-c-k-c0x00ffffff-no-rj" class="thumb"></a>
-			<a href="tv.html?v=MN8p-Vrn6G0&title=NDTV India"><img src="https://yt3.ggpht.com/ytc/AKedOLTTJEVRKRq2MQmhnG83AFSZQRD6iGclKV1swgpSrg=s48-c-k-c0x00ffffff-no-rj" class="thumb"></a>
-			<a href="tv.html?v=911cntbvPBU&title=Republic Bharat"><img src="https://yt3.ggpht.com/ytc/AKedOLTHZuOu1RwxGkcEsHKE6_WfmeST3JPoWNLxir3alA=s48-c-k-c0x00ffffff-no-rj" class="thumb"></a>
-			<a href="tv.html?v=vVYOSicr5KA&title=Zee News"><img src="https://yt3.ggpht.com/ytc/AKedOLQ8kKijuHJ7kY9prcuIXQ1Aht4yznFzAZe-jleevQw=s48-c-k-c0x00ffffff-no-rj" class="thumb"></a>
-			<a href="tv.html?v=Xg1-mF4BJEk&title=TV9 Bharatvarsh"><img src="https://yt3.ggpht.com/szaq2QN1WM5Qk5dcSTayT3SZaXCVXcH0Am4CLLfRrb0uh0jrz4mhFvsrLmaE5hTiKL6_1M3lHA=s48-c-k-c0x00ffffff-no-rj" class="thumb"></a>
-			<a href="tv.html?v=Cy_6-_XUW-c&title=Aaj Tak"><img src="https://yt3.ggpht.com/ytc/AKedOLSc430fgzBmgF8DgWUUUKTCj0UmmxfDRzIveN7JFfo=s48-c-k-c0x00ffffff-no-rj" class="thumb"></a>
-			<a href="tv.html?v=aC650xB9NNc&title=News 24"><img src="https://yt3.ggpht.com/ytc/AKedOLRdDqZAUUEasO_6XwYclpg8BCjRMssl2KrZGBSIUQ=s48-c-k-c0x00ffffff-no-rj" class="thumb"></a>
+			<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQtlX3rWNbvBfc9eOCnu5jajwWVrxwe9NvqtLBB1w=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('DD News','SIOM-RyamcI');"></a>
+			<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLRUToLipy4MP82mnh40IvVCb4gOykJssP3S4anLCcE=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('ABP News','nyd-xznCpJc');"></a>
+			<a href="#"><img src="https://yt3.ggpht.com/y5S847YDNlDZNUUk3xmEfVMUDu2XSe0yAU_qvIpbwKi5VgIYQQc3FGeOANbgu-36sBEDpAwDAQ=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('India TV','Xmm3Kr5P1Uw');"></a>
+			<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLTTJEVRKRq2MQmhnG83AFSZQRD6iGclKV1swgpSrg=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('NDTV India','MN8p-Vrn6G0');"></a>
+			<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLTHZuOu1RwxGkcEsHKE6_WfmeST3JPoWNLxir3alA=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Republic Bharat','911cntbvPBU');"></a>
+			<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQ8kKijuHJ7kY9prcuIXQ1Aht4yznFzAZe-jleevQw=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Zee News','vVYOSicr5KA');"></a>
+			<a href="#"><img src="https://yt3.ggpht.com/szaq2QN1WM5Qk5dcSTayT3SZaXCVXcH0Am4CLLfRrb0uh0jrz4mhFvsrLmaE5hTiKL6_1M3lHA=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('TV9 Bharatvarsh','Xg1-mF4BJEk');"></a>
+			<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSc430fgzBmgF8DgWUUUKTCj0UmmxfDRzIveN7JFfo=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Aaj Tak','Cy_6-_XUW-c');"></a>
+			<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLRdDqZAUUEasO_6XwYclpg8BCjRMssl2KrZGBSIUQ=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('News 24','aC650xB9NNc');"></a>
 		</div>
 		<div class="row"><div class="span12"><div class="title-page"><h2 class="title">ENGLISH NEWS:</h2></div></div></div>
 		<div class="row margin-15">
-			<a href="tv.html?v=H8U3UwRvTBs&title=CNN News 18"><img src="https://yt3.ggpht.com/ytc/AKedOLQZYIayv7xgavlSTqkrCB_OsPxeG0tkCsvN6p539Q=s48-c-k-c0x00ffffff-no-rj" class="thumb"></a>
-			<a href="tv.html?v=Z9YyrwJABRY&title=Republic World"><img src="https://yt3.ggpht.com/ytc/AKedOLSb5oJHKwnfvNMusucgT7fOzNQtcPbBNm_Srq5Cpw=s48-c-k-c0x00ffffff-no-rj" class="thumb"></a>
-			<a href="tv.html?v=jD8B7wYaB2U&title=Times Now"><img src="https://yt3.ggpht.com/-jVa8uJSMkzaiHVbe3ZX9Ux5gyY9g9DZes2hyy0dXkhv1uzC3yMO-2gEAPMdJ-8isvMjh4E1U2k=s48-c-k-c0x00ffffff-no-rj" class="thumb"></a>
-			<a href="tv.html?v=lyeyoqwXm5o&title=India Today"><img src="https://yt3.ggpht.com/ytc/AKedOLSt-tHE1CSHmihgq351JIiXq9-hdITBE4EYNGi2HQ=s48-c-k-c0x00ffffff-no-rj" class="thumb"></a>
-			<a href="tv.html?v=WB-y7_ymPJ4&title=NDTV"><img src="https://yt3.ggpht.com/ytc/AKedOLQ21BVR2XXhuPuSZAf1HC6quBldr1TQYxXO552Mre4=s48-c-k-c0x00ffffff-no-rj" class="thumb"></a>
+			<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQZYIayv7xgavlSTqkrCB_OsPxeG0tkCsvN6p539Q=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('CNN News 18','H8U3UwRvTBs');"></a>
+			<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSb5oJHKwnfvNMusucgT7fOzNQtcPbBNm_Srq5Cpw=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Republic World','Z9YyrwJABRY');"></a>
+			<a href="#"><img src="https://yt3.ggpht.com/-jVa8uJSMkzaiHVbe3ZX9Ux5gyY9g9DZes2hyy0dXkhv1uzC3yMO-2gEAPMdJ-8isvMjh4E1U2k=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Times Now','jD8B7wYaB2U');"></a>
+			<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSt-tHE1CSHmihgq351JIiXq9-hdITBE4EYNGi2HQ=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('India Today','lyeyoqwXm5o');"></a>
+			<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQ21BVR2XXhuPuSZAf1HC6quBldr1TQYxXO552Mre4=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('NDTV','WB-y7_ymPJ4');"></a>
 		</div>
 	</div>
 </div>
