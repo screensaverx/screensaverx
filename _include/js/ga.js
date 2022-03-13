@@ -1,12 +1,9 @@
-<amp-analytics type="gtag" data-credentials="include">
-<script type="application/json">
-{
-  "vars" : {
-    "gtag_id": "UA-151684114-1",
-    "config" : {
-      "UA-151684114-1": { "groups": "default" }
-    }
-  }
-}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3WZ30LG0TY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3WZ30LG0TY');
 </script>
-</amp-analytics>
