@@ -88,8 +88,8 @@
   	display: block;
   	padding: 15px;
 	background:#3C3F45;
-	color: #23262C;
-	font-size: 18px;
+	color: #999999;
+	font-size: 14px;
 	font-weight: 600;
 	text-transform: uppercase;
 	
@@ -170,7 +170,7 @@
 
 .accordion-inner {
 	background: #26292E;
-  	padding: 16px 20px;
+  	padding: 15px 15px 0px 15px;
 	border: none;
 }
 

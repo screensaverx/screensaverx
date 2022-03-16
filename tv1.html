@@ -70,13 +70,10 @@ var title = getParameterByName('title');
 <!-- VIDEO EMBEDD -->
 <div id="hindi" class="page">
 	<div class="container">
-		<h3 class="spec">LIVE TV</h3>
 		<div class="row">
 			<div class="span12">
 				<div class="title-page">
-					<h2 class="title" id="title3">
-						DD News
-					</h2>
+					<h2 class="title" id="title3">DD News</h2>
 				</div>
 			</div>
 		</div>
@@ -87,18 +84,17 @@ var title = getParameterByName('title');
 			function changeMe(title, id)
 			{
 				document.getElementById("title3").innerHTML = title;
-				document.getElementById("youtube").innerHTML = "<iframe src='https://www.youtube.com/embed/"+id+"?rel=0&modestbranding=1&autohide=1&mute=0&showinfo=0&controls=1&autoplay=1&enablejsapi=1' style='position:absolute; width:100%; height:100%;' width='100%' height='100%' frameborder='0' allowfullscreen></iframe>";
+				document.getElementById("youtube").innerHTML = "<iframe src='https://www.youtube.com/embed/"+id+"?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=1&autoplay=1&enablejsapi=1' style='position:absolute; width:100%; height:100%;' width='100%' height='100%' frameborder='0' allowfullscreen></iframe>";
 			}
 		</script>
 		
 		<br>
 		<!-- CHANNEL ACCORDION -->
-		<h3 class="spec">WATCH OTHER CHANNELS</h3>
 		<div class="accordion" id="accordionArea">
 			<div class="accordion-group"><div class="accordion-heading accordionize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#oneArea">Hindi News<span class="font-icon-arrow-simple-down"></span></a></div>
 			<div id="oneArea" class="accordion-body collapse">
 				<div class="accordion-inner">
-					<div class="row margin-15">
+					<div class="row">
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQtlX3rWNbvBfc9eOCnu5jajwWVrxwe9NvqtLBB1w=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('DD News','SIOM-RyamcI');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLRUToLipy4MP82mnh40IvVCb4gOykJssP3S4anLCcE=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('ABP News','nyd-xznCpJc');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/y5S847YDNlDZNUUk3xmEfVMUDu2XSe0yAU_qvIpbwKi5VgIYQQc3FGeOANbgu-36sBEDpAwDAQ=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('India TV','Xmm3Kr5P1Uw');"></a>
@@ -116,7 +112,7 @@ var title = getParameterByName('title');
 			<div class="accordion-group"><div class="accordion-heading accordionize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#twoArea">English News<span class="font-icon-arrow-simple-down"></span></a></div>
 			<div id="twoArea" class="accordion-body collapse">
 				<div class="accordion-inner">
-					<div class="row margin-15">
+					<div class="row">
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQZYIayv7xgavlSTqkrCB_OsPxeG0tkCsvN6p539Q=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('CNN News 18','H8U3UwRvTBs');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSb5oJHKwnfvNMusucgT7fOzNQtcPbBNm_Srq5Cpw=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Republic World','Z9YyrwJABRY');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/-jVa8uJSMkzaiHVbe3ZX9Ux5gyY9g9DZes2hyy0dXkhv1uzC3yMO-2gEAPMdJ-8isvMjh4E1U2k=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Times Now','jD8B7wYaB2U');"></a>
@@ -130,12 +126,41 @@ var title = getParameterByName('title');
 			<div class="accordion-group"><div class="accordion-heading accordionize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#threeArea">Regional News<span class="font-icon-arrow-simple-down"></span></a></div>
 			<div id="threeArea" class="accordion-body collapse">
 				<div class="accordion-inner">
-					<div class="row margin-15">
+					<div class="row">
+						<h2 class="inner-title">Gujarati News</h2>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQZYIayv7xgavlSTqkrCB_OsPxeG0tkCsvN6p539Q=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('CNN News 18','H8U3UwRvTBs');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSb5oJHKwnfvNMusucgT7fOzNQtcPbBNm_Srq5Cpw=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Republic World','Z9YyrwJABRY');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/-jVa8uJSMkzaiHVbe3ZX9Ux5gyY9g9DZes2hyy0dXkhv1uzC3yMO-2gEAPMdJ-8isvMjh4E1U2k=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Times Now','jD8B7wYaB2U');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSt-tHE1CSHmihgq351JIiXq9-hdITBE4EYNGi2HQ=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('India Today','lyeyoqwXm5o');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQ21BVR2XXhuPuSZAf1HC6quBldr1TQYxXO552Mre4=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('NDTV','WB-y7_ymPJ4');"></a>
+					</div>
+					<div class="row">
+						<h2 class="inner-title">Marathi News</h2>
+						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQZYIayv7xgavlSTqkrCB_OsPxeG0tkCsvN6p539Q=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('CNN News 18','H8U3UwRvTBs');"></a>
+						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSb5oJHKwnfvNMusucgT7fOzNQtcPbBNm_Srq5Cpw=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Republic World','Z9YyrwJABRY');"></a>
+						<a href="#"><img src="https://yt3.ggpht.com/-jVa8uJSMkzaiHVbe3ZX9Ux5gyY9g9DZes2hyy0dXkhv1uzC3yMO-2gEAPMdJ-8isvMjh4E1U2k=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Times Now','jD8B7wYaB2U');"></a>
+						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSt-tHE1CSHmihgq351JIiXq9-hdITBE4EYNGi2HQ=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('India Today','lyeyoqwXm5o');"></a>
+						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQ21BVR2XXhuPuSZAf1HC6quBldr1TQYxXO552Mre4=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('NDTV','WB-y7_ymPJ4');"></a>
+					</div>
+				</div>				
+			</div>
+			</div>
+
+			<div class="accordion-group"><div class="accordion-heading accordionize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fourthArea">International News<span class="font-icon-arrow-simple-down"></span></a></div>
+			<div id="fourthArea" class="accordion-body collapse">
+				<div class="accordion-inner">
+					<div class="row">
+						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQZYIayv7xgavlSTqkrCB_OsPxeG0tkCsvN6p539Q=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('CNN News 18','H8U3UwRvTBs');"></a>
+					</div>
+				</div>				
+			</div>
+			</div>
+
+			<div class="accordion-group"><div class="accordion-heading accordionize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fifthArea">Music Hindi<span class="font-icon-arrow-simple-down"></span></a></div>
+			<div id="fifthArea" class="accordion-body collapse">
+				<div class="accordion-inner">
+					<div class="row">
+						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLRDyDkU3Ht6c9zxpz1RMbB9fsQKQih6gw6EnoTiUg=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Mastiii TV Live','uDDO4U2r3x0');"></a>
 					</div>
 				</div>				
 			</div>
@@ -154,7 +179,7 @@ var title = getParameterByName('title');
 		<a href="#">Privacy</a> / 
 		<a href="#">Trademarks</a>
 		</br>
-		&copy ScreensaverX 2022
+		&copy TV Free 2022
 	</p>
 </footer>
 <!-- FOOTER END -->

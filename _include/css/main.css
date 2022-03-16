@@ -29,7 +29,7 @@ body{
 	font-weight:300;
 	font-size:16px;
 	font-family: 'Calibri', sans-serif;
-	line-height:28px;
+	line-height:20px;
 }
 
 
@@ -650,6 +650,16 @@ nav#menu #menu-nav li a:hover {
 	color:#05C3DD;
 	margin-bottom: 20px;
 	text-shadow:2px 2px 4px #000000;
+	font-size: 14px;
+	font-weight:bold;
+}
+
+.inner-title {
+	color:#05C3DD;
+	margin-bottom: 10px;
+	text-shadow:2px 2px 4px #000000;
+	font-size: 14px;
+	font-weight:bold;
 }
 
 .title-page .title {
