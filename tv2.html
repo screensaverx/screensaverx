@@ -87,14 +87,14 @@
 				document.getElementById("youtube").innerHTML = "<iframe src='https://www.youtube.com/embed/"+id+"?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=1&autoplay=1&enablejsapi=1' style='position:absolute; width:100%; height:100%;' width='100%' height='100%' frameborder='0' allowfullscreen></iframe>";
 			}
 		</script>
-		
 		<br>
-		<!-- CHANNEL ACCORDION -->
-		<div class="accordion" id="accordionArea">
-			<div class="accordion-group"><div class="accordion-heading accordionize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#oneArea">Hindi News<span class="font-icon-arrow-simple-down"></span></a></div>
-			<div id="oneArea" class="accordion-body collapse">
-				<div class="accordion-inner">
-					<div class="row">
+		<!-- Start Toggle -->
+                <div class="accordion" id="toggleArea">
+					
+					<!-- HINDI -->	
+                    <div class="accordion-group"><div class="accordion-heading togglize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseOne">Hindi News<span class="font-icon-plus"></span><span class="font-icon-minus"></span></a></div>
+                    <div id="collapseOne" class="accordion-body collapse">
+					<div class="accordion-inner">
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQtlX3rWNbvBfc9eOCnu5jajwWVrxwe9NvqtLBB1w=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('DD News','SIOM-RyamcI');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLRUToLipy4MP82mnh40IvVCb4gOykJssP3S4anLCcE=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('ABP News','nyd-xznCpJc');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/y5S847YDNlDZNUUk3xmEfVMUDu2XSe0yAU_qvIpbwKi5VgIYQQc3FGeOANbgu-36sBEDpAwDAQ=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('India TV','Xmm3Kr5P1Uw');"></a>
@@ -105,35 +105,32 @@
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSc430fgzBmgF8DgWUUUKTCj0UmmxfDRzIveN7JFfo=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Aaj Tak','Cy_6-_XUW-c');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLRdDqZAUUEasO_6XwYclpg8BCjRMssl2KrZGBSIUQ=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('News 24','aC650xB9NNc');"></a>
 					</div>
-				</div>
-			</div>
-			</div>
-			
-			<div class="accordion-group"><div class="accordion-heading accordionize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#twoArea">English News<span class="font-icon-arrow-simple-down"></span></a></div>
-			<div id="twoArea" class="accordion-body collapse">
-				<div class="accordion-inner">
-					<div class="row">
+                    </div>
+                    </div>
+                    
+					<!-- ENGLISH -->
+                    <div class="accordion-group"><div class="accordion-heading togglize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseTwo">English News<span class="font-icon-plus"></span><span class="font-icon-minus"></span></a></div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+					<div class="accordion-inner">
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQZYIayv7xgavlSTqkrCB_OsPxeG0tkCsvN6p539Q=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('CNN News 18','H8U3UwRvTBs');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSb5oJHKwnfvNMusucgT7fOzNQtcPbBNm_Srq5Cpw=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Republic World','Z9YyrwJABRY');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/-jVa8uJSMkzaiHVbe3ZX9Ux5gyY9g9DZes2hyy0dXkhv1uzC3yMO-2gEAPMdJ-8isvMjh4E1U2k=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Times Now','jD8B7wYaB2U');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSt-tHE1CSHmihgq351JIiXq9-hdITBE4EYNGi2HQ=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('India Today','lyeyoqwXm5o');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQ21BVR2XXhuPuSZAf1HC6quBldr1TQYxXO552Mre4=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('NDTV','WB-y7_ymPJ4');"></a>
 					</div>
-				</div>
-			</div>
-			</div>
-
-			<div class="accordion-group"><div class="accordion-heading accordionize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#threeArea">Regional News<span class="font-icon-arrow-simple-down"></span></a></div>
-			<div id="threeArea" class="accordion-body collapse">
-				<div class="accordion-inner">
-					<div class="row">
+                    </div>
+                    </div>
+                    
+                    <!-- REGIONAL -->
+					<div class="accordion-group"><div class="accordion-heading togglize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseThird">Regional News<span class="font-icon-plus"></span><span class="font-icon-minus"></span></a></div>
+                    <div id="collapseThird" class="accordion-body collapse">
+					<div class="accordion-inner">
 						<h2 class="inner-title">Gujarati News</h2>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQZYIayv7xgavlSTqkrCB_OsPxeG0tkCsvN6p539Q=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('TV9 Gujarati','Mvz3_9O4p4s');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSb5oJHKwnfvNMusucgT7fOzNQtcPbBNm_Srq5Cpw=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('ABP Asmita','Ga4w81eYUhQ');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/-jVa8uJSMkzaiHVbe3ZX9Ux5gyY9g9DZes2hyy0dXkhv1uzC3yMO-2gEAPMdJ-8isvMjh4E1U2k=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('News18 Gujarati','0s_BkuwZVqk');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSt-tHE1CSHmihgq351JIiXq9-hdITBE4EYNGi2HQ=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Zee 24 Kalak','iLKB0S-hPmg');"></a>
-					</div>
-					<div class="row">
+
 						<h2 class="inner-title">Marathi News</h2>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQZYIayv7xgavlSTqkrCB_OsPxeG0tkCsvN6p539Q=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('CNN News 18','H8U3UwRvTBs');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSb5oJHKwnfvNMusucgT7fOzNQtcPbBNm_Srq5Cpw=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Republic World','Z9YyrwJABRY');"></a>
@@ -141,31 +138,33 @@
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSt-tHE1CSHmihgq351JIiXq9-hdITBE4EYNGi2HQ=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('India Today','lyeyoqwXm5o');"></a>
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQ21BVR2XXhuPuSZAf1HC6quBldr1TQYxXO552Mre4=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('NDTV','WB-y7_ymPJ4');"></a>
 					</div>
-				</div>				
-			</div>
-			</div>
+                    </div>
+                    </div>
 
-			<div class="accordion-group"><div class="accordion-heading accordionize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fourthArea">International News<span class="font-icon-arrow-simple-down"></span></a></div>
-			<div id="fourthArea" class="accordion-body collapse">
-				<div class="accordion-inner">
-					<div class="row">
+					<!-- INTERNATIONAL -->
+                    <div class="accordion-group"><div class="accordion-heading togglize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseFour">International News<span class="font-icon-plus"></span><span class="font-icon-minus"></span></a></div>
+                    <div id="collapseFour" class="accordion-body collapse">
+					<div class="accordion-inner">
 						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQZYIayv7xgavlSTqkrCB_OsPxeG0tkCsvN6p539Q=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('CNN News 18','H8U3UwRvTBs');"></a>
+						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSb5oJHKwnfvNMusucgT7fOzNQtcPbBNm_Srq5Cpw=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Republic World','Z9YyrwJABRY');"></a>
+						<a href="#"><img src="https://yt3.ggpht.com/-jVa8uJSMkzaiHVbe3ZX9Ux5gyY9g9DZes2hyy0dXkhv1uzC3yMO-2gEAPMdJ-8isvMjh4E1U2k=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Times Now','jD8B7wYaB2U');"></a>
+						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSt-tHE1CSHmihgq351JIiXq9-hdITBE4EYNGi2HQ=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('India Today','lyeyoqwXm5o');"></a>
+						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQ21BVR2XXhuPuSZAf1HC6quBldr1TQYxXO552Mre4=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('NDTV','WB-y7_ymPJ4');"></a>
 					</div>
-				</div>				
-			</div>
-			</div>
+                    </div>
+                    </div>
 
-			<div class="accordion-group"><div class="accordion-heading accordionize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fifthArea">Music Hindi<span class="font-icon-arrow-simple-down"></span></a></div>
-			<div id="fifthArea" class="accordion-body collapse">
-				<div class="accordion-inner">
-					<div class="row">
-						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLRDyDkU3Ht6c9zxpz1RMbB9fsQKQih6gw6EnoTiUg=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Mastiii TV Live','uDDO4U2r3x0');"></a>
+					<!-- MUSIC -->
+                    <div class="accordion-group"><div class="accordion-heading togglize"><a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseFive">Music Hindi<span class="font-icon-plus"></span><span class="font-icon-minus"></span></a></div>
+                    <div id="collapseFive" class="accordion-body collapse">
+					<div class="accordion-inner">
+						<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLRDyDkU3Ht6c9zxpz1RMbB9fsQKQih6gw6EnoTiUg=s48-c-k-c0x00ffffff-no-rj" class="thumb" onclick="changeMe('Mastiii TV Live','uDDO4U2r3x0');"></a>						
 					</div>
-				</div>				
-			</div>
-			</div>
-		</div>
-		<!-- CHANNEL ACCORDION END -->
+                    </div>
+                    </div>
+                    
+                </div>
+                <!-- End Toggle -->
 	</div>
 </div>
 <!-- VIDEO EMBEDD END -->
