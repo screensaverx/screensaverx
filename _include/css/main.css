@@ -246,7 +246,7 @@ h3.spec {
 /* ==================================================
    Margin Bottom Sets
 ================================================== */
-.thumb{height:50px; width:50px; margin:0 10px 10px 0;}
+.thumb{height:50px; width:50px; margin:0 5px 10px 0;}
 
 .margin-0{
 	margin-bottom:0 !important;
