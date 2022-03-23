@@ -1435,7 +1435,14 @@ footer .credits {
 /* IMAGE SHADOW */
 .shadows
 { 
-    border:1px solid #666;
+    border:1px solid #000000;
     border-radius:10px;
     box-shadow: 2px 2px 2px #000000; 
+}
+
+.shadows:hover
+{ 
+    border:1px solid #000000;
+    border-radius:10px;
+    box-shadow: 0px 0px 0px #000000; 
 }
