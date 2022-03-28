@@ -1460,11 +1460,9 @@ footer a {
 }
 
 .floating-div
-{ 
-	background:#2F3238;
+{
 	width: 100%;
 	height: 300px;
 	overflow-x: hidden;
 	overflow-y: auto;
-	padding:15px;
 }
