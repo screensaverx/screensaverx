@@ -211,7 +211,7 @@ h2{
 }
 
 h3{
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 1em;
 	text-transform: uppercase;
 	text-shadow:2px 2px 4px #000000;
@@ -648,7 +648,7 @@ nav#menu #menu-nav li a:hover {
 	color:#05C3DD;
 	margin-bottom: 20px;
 	text-shadow:2px 2px 4px #000000;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight:bold;
 }
 
