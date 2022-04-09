@@ -1466,3 +1466,13 @@ footer a {
 	overflow-x: hidden;
 	overflow-y: auto;
 }
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #05C3DD;
+}
+
+::selection {
+  color: white;
+  background: #05C3DD;
+}
