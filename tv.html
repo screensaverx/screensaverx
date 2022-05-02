@@ -32,6 +32,7 @@
 	<link href="/_include/css/responsive.css" rel="stylesheet">					<!-- Responsive 2 -->
 	<link rel="shortcut icon" href="/_include/img/icon.png">					<!-- Fav Icon -->
 	<script src="/_include/js/modernizr.js"></script>							<!-- Modernizr Script -->
+	<script src="/_include/js/channels.js"></script>							<!-- List of TV Channels -->
 	<!-- Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-3WZ30LG0TY"></script>
 	<script src="/_include/js/ga.js"></script>
@@ -59,20 +60,6 @@
 </header>
 <!-- HEADER END -->
 
-<script>
-	function getParameterByName(name, url = window.location.href) 
-	{
-		name = name.replace(/[\[\]]/g, '\\$&');
-		var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'), results = regex.exec(url);
-		if (!results) return null;
-		if (!results[2]) return '';
-		return decodeURIComponent(results[2].replace(/\+/g, ' '));
-	}
-	var v = getParameterByName('v');
-	var title = getParameterByName('title');
-</script>
-<script src="/_include/js/channels.js"></script> <!-- Channels -->
-
 <!-- VIDEO EMBEDD -->
 <div id="hindi" class="page-alternate">
 	<div class="container">
@@ -81,11 +68,9 @@
 		</div>
 		<br>
 		<div class="row youtube-video-container" id="youtube">
-			
 			<script>
 				document.write("<iframe src='https://www.youtube.com/embed/"+hindi_news[0][2]+"?rel=0&modestbranding=1&autohide=1&mute=0&showinfo=0&controls=1&autoplay=1&enablejsapi=1' style='position:absolute; width:100%; height:100%;' width='100%' height='100%' frameborder='0' allowfullscreen></iframe>");
 			</script>
-
 		</div>
 		<script>
 			function changeMe(title, id)

@@ -35,7 +35,7 @@ var marathi_news =
 
 var bangla_news = 
 [
-   ["SOMOY TV", "https://yt3.ggpht.com/ytc/AKedOLR-RXr5kKOUNVS9tu7RXQwkrVlb4wc2Jh9PQtX70A=s48-c-k-c0x00ffffff-no-rj", "sMOTUIHPfV4", "1"],
+   ["SOMOY TV", "https://yt3.ggpht.com/ytc/AKedOLR-RXr5kKOUNVS9tu7RXQwkrVlb4wc2Jh9PQtX70A=s48-c-k-c0x00ffffff-no-rj", "LCvhG9BEzv4", "1"],
    ["News18 Bangla", "https://yt3.ggpht.com/ytc/AKedOLQWL430dl4QrXukPt8dsPlpH-82885eT3IAkor8OA=s48-c-k-c0x00ffffff-no-rj", "TeJ214D_5_4", "2"],
    ["Republic Bangla", "https://yt3.ggpht.com/ytc/AKedOLTfaBAtNBkiiK7lDJi-8WWfFzNIg_mqXZQOUREq=s48-c-k-c0x00ffffff-no-rj", "f4sENkugEVE", "3"],
 ];
@@ -93,5 +93,5 @@ var hindi_business =
    ["CNBC Awaaz", "https://yt3.ggpht.com/ytc/AKedOLSyRjbzRKUYj309uO4sP5h3OrYedoJV1_kQxsTP=s48-c-k-c0x00ffffff-no-rj", "TD0A7fHAxKw", "1"],
    ["ET Now", "https://yt3.ggpht.com/ytc/AKedOLTPQNgnqj9M6s6Ak-e254fh2M2Y7_lmoUabvu4qCqA=s48-c-k-c0x00ffffff-no-rj", "zmKEMv_uXfc", "2"],
    ["NDTV Profit", "https://yt3.ggpht.com/ytc/AKedOLSz9FJpaIi9Qqg8EabODY1c-EeFFAd4ao8f41e-=s48-c-k-c0x00ffffff-no-rj", "GPKXF3mzAlU", "3"],
-   ["Zee Business", "https://yt3.ggpht.com/ytc/AKedOLTOCvAGQKTo2AG05ND9wRxdK0EFIq8quSSLH4q1qA=s48-c-k-c0x00ffffff-no-rj", "mw42pNMW4Ho", "4"],
+   ["Zee Business", "https://yt3.ggpht.com/ytc/AKedOLTOCvAGQKTo2AG05ND9wRxdK0EFIq8quSSLH4q1qA=s48-c-k-c0x00ffffff-no-rj", "dhbHW0BCfMM", "4"],
 ];
