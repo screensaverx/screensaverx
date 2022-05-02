@@ -71,16 +71,21 @@
 	var v = getParameterByName('v');
 	var title = getParameterByName('title');
 </script>
+<script src="/_include/js/channels.js"></script> <!-- Channels -->
 
 <!-- VIDEO EMBEDD -->
 <div id="hindi" class="page-alternate">
 	<div class="container">
 		<div class="row">
-			<h3><span class="color-text">WATCHING</span> - <span id='title3'>DD NEWS</span></h3>
+			<h3><span class="color-text">WATCHING</span> - <span id='title3'><script>document.write(hindi_news[0][0]);</script></span></h3>
 		</div>
 		<br>
 		<div class="row youtube-video-container" id="youtube">
-			<iframe src='https://www.youtube.com/embed/ix8-r30MK7A?rel=0&modestbranding=1&autohide=1&mute=0&showinfo=0&controls=1&autoplay=1&enablejsapi=1' style='position:absolute; width:100%; height:100%;' width='100%' height='100%' frameborder='0' allowfullscreen></iframe>
+			
+			<script>
+				document.write("<iframe src='https://www.youtube.com/embed/"+hindi_news[0][2]+"?rel=0&modestbranding=1&autohide=1&mute=0&showinfo=0&controls=1&autoplay=1&enablejsapi=1' style='position:absolute; width:100%; height:100%;' width='100%' height='100%' frameborder='0' allowfullscreen></iframe>");
+			</script>
+
 		</div>
 		<script>
 			function changeMe(title, id)
@@ -99,75 +104,76 @@
 			<div class="accordion-inner">
 			<div class="floating-div">
 				<h2 class="inner-title-2">Hindi News Channels</h2>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQtlX3rWNbvBfc9eOCnu5jajwWVrxwe9NvqtLBB1w=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('DD News','ix8-r30MK7A');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLRUToLipy4MP82mnh40IvVCb4gOykJssP3S4anLCcE=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('ABP News','nyd-xznCpJc');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/y5S847YDNlDZNUUk3xmEfVMUDu2XSe0yAU_qvIpbwKi5VgIYQQc3FGeOANbgu-36sBEDpAwDAQ=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('India TV','Xmm3Kr5P1Uw');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLTTJEVRKRq2MQmhnG83AFSZQRD6iGclKV1swgpSrg=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('NDTV India','MN8p-Vrn6G0');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLTHZuOu1RwxGkcEsHKE6_WfmeST3JPoWNLxir3alA=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Republic Bharat TV','911cntbvPBU');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/szaq2QN1WM5Qk5dcSTayT3SZaXCVXcH0Am4CLLfRrb0uh0jrz4mhFvsrLmaE5hTiKL6_1M3lHA=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('TV9 Bharatvarsh','6t7eH1x3VXI');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQRJiELJWT983TxaxQ8nKgVGP4jgWTvqTaOUFekrB0=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Aaj Tak','Cy_6-_XUW-c');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLRdDqZAUUEasO_6XwYclpg8BCjRMssl2KrZGBSIUQ=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('News 24','aC650xB9NNc');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQ8kKijuHJ7kY9prcuIXQ1Aht4yznFzAZe-jleevQw=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Zee News','d8alXW2CAuY');" class="thumb shadows"></a>
+				<a href="#" onclick="changeMe(hindi_news[0][0],hindi_news[0][2]);"><script>document.write("<img src="+hindi_news[0][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(hindi_news[1][0],hindi_news[1][2]);"><script>document.write("<img src="+hindi_news[1][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(hindi_news[2][0],hindi_news[2][2]);"><script>document.write("<img src="+hindi_news[2][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(hindi_news[3][0],hindi_news[3][2]);"><script>document.write("<img src="+hindi_news[3][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(hindi_news[4][0],hindi_news[4][2]);"><script>document.write("<img src="+hindi_news[4][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(hindi_news[5][0],hindi_news[5][2]);"><script>document.write("<img src="+hindi_news[5][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(hindi_news[6][0],hindi_news[6][2]);"><script>document.write("<img src="+hindi_news[6][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(hindi_news[7][0],hindi_news[7][2]);"><script>document.write("<img src="+hindi_news[7][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(hindi_news[8][0],hindi_news[8][2]);"><script>document.write("<img src="+hindi_news[8][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(hindi_news[9][0],hindi_news[9][2]);"><script>document.write("<img src="+hindi_news[9][1]+" class='thumb shadows'>");</script></a>
 
 				<h2 class="inner-title-2">English News Channels</h2>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQZYIayv7xgavlSTqkrCB_OsPxeG0tkCsvN6p539Q=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('CNN News 18','H8U3UwRvTBs');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/-jVa8uJSMkzaiHVbe3ZX9Ux5gyY9g9DZes2hyy0dXkhv1uzC3yMO-2gEAPMdJ-8isvMjh4E1U2k=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Times Now','eARMIDwS3VQ');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSt-tHE1CSHmihgq351JIiXq9-hdITBE4EYNGi2HQ=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('India Today','lyeyoqwXm5o');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQ21BVR2XXhuPuSZAf1HC6quBldr1TQYxXO552Mre4=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('NDTV','WB-y7_ymPJ4');" class="thumb shadows"></a>
+				<a href="#" onclick="changeMe(english_news[0][0],english_news[0][2]);"><script>document.write("<img src="+english_news[0][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(english_news[1][0],english_news[1][2]);"><script>document.write("<img src="+english_news[1][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(english_news[2][0],english_news[2][2]);"><script>document.write("<img src="+english_news[2][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(english_news[3][0],english_news[3][2]);"><script>document.write("<img src="+english_news[3][1]+" class='thumb shadows'>");</script></a>
 
 				<h2 class="inner-title-2">Gujarati News Channels</h2>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLR8E478gf4F3e11eXaV1Th88zd2m4OEOp77VpnE1A=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('TV9 Gujarati','Mvz3_9O4p4s');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLTrjHAKHvrNSmAaKygPhSuwwEY7dXmSDIZYc7VWPw=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('ABP Asmita','M-eEZfdNv1k');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQRNWjbaglFZG9wBg1uQpliM2tTGm6ReZseoMs2=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('News18 Gujarati','0s_BkuwZVqk');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSnkoyB7okPk53mb9usTiZK2NYyVR--RCIXM5mDcw=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Zee 24 Kalak','q-Kk5y3iFDg');" class="thumb shadows"></a>
+				<a href="#" onclick="changeMe(gujarati_news[0][0],gujarati_news[0][2]);"><script>document.write("<img src="+gujarati_news[0][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(gujarati_news[1][0],gujarati_news[1][2]);"><script>document.write("<img src="+gujarati_news[1][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(gujarati_news[2][0],gujarati_news[2][2]);"><script>document.write("<img src="+gujarati_news[2][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(gujarati_news[3][0],gujarati_news[3][2]);"><script>document.write("<img src="+gujarati_news[3][1]+" class='thumb shadows'>");</script></a>
 
 				<h2 class="inner-title-2">Marathi News Channels</h2>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLRjZszPMkOGeriDKmpyO_SZ1JbSy0ZWF-GTvaWdIQ=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('ABP Majha','Rs3GfkHRwXA');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/6sAsc_Al0VOPwmG5ho1zFlIakY_6eCMJUzRrz88UYQZzZTJ1UePU5CUOvFFrhZf62WmrKLAIbw4=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('TV9 Marathi','oRRLy76VVyA');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/8RWTnNmhpghFXB3QE6iQZFly4r9gBdfk8938GmRk5jBnu6g_kFa8UateVnAJZ846mXcDJIqRZI8=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Zee 24 Taas','JhaJE7NX3AU');" class="thumb shadows"></a>
+				<a href="#" onclick="changeMe(marathi_news[0][0],marathi_news[0][2]);"><script>document.write("<img src="+marathi_news[0][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(marathi_news[1][0],marathi_news[1][2]);"><script>document.write("<img src="+marathi_news[1][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(marathi_news[2][0],marathi_news[2][2]);"><script>document.write("<img src="+marathi_news[2][1]+" class='thumb shadows'>");</script></a>
 
 				<h2 class="inner-title-2">Bangla News Channels</h2>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLR-RXr5kKOUNVS9tu7RXQwkrVlb4wc2Jh9PQtX70A=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('SOMOY TV','sMOTUIHPfV4');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQWL430dl4QrXukPt8dsPlpH-82885eT3IAkor8OA=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('News18 Bangla','TeJ214D_5_4');" class="thumb shadows"></a>
-				<!-- <a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLTfaBAtNBkiiK7lDJi-8WWfFzNIg_mqXZQOUREq=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Republic Bangla','Aq1LaZFiYtE');" class="thumb shadows"></a> -->
+				<a href="#" onclick="changeMe(bangla_news[0][0],bangla_news[0][2]);"><script>document.write("<img src="+bangla_news[0][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(bangla_news[1][0],bangla_news[1][2]);"><script>document.write("<img src="+bangla_news[1][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(bangla_news[2][0],bangla_news[2][2]);"><script>document.write("<img src="+bangla_news[2][1]+" class='thumb shadows'>");</script></a>
 
 				<h2 class="inner-title-2">Tamil News Channels</h2>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLTfEDGv-ChLg5MyVNfcvC3QXPQMzZA3jj-St9QRip0=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Polimer News','7LvCANd8lug');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLRiRCfupG7Kh0hHovoLuGlUmzpEigK1nXh4HhUoEw=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Sun News','kzwbYu1diCY');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQOBIUE52Dou16m-d6q3C4Z-pmYPei9qgdyZfG2=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('News18 Tamil Nadu','mQrZJFyYzlI');" class="thumb shadows"></a>
+				<a href="#" onclick="changeMe(tamil_news[0][0],tamil_news[0][2]);"><script>document.write("<img src="+tamil_news[0][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(tamil_news[1][0],tamil_news[1][2]);"><script>document.write("<img src="+tamil_news[1][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(tamil_news[2][0],tamil_news[2][2]);"><script>document.write("<img src="+tamil_news[2][1]+" class='thumb shadows'>");</script></a>
 				
 				<h2 class="inner-title-2">Telugu News Channels</h2>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSxzMKkUfOGGlB6kwz4Ail_53AEDudqUJiQKRgbiA=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('TV9 Telugu','II_m28Bm-iM');" class="thumb shadows"></a>
+				<a href="#" onclick="changeMe(telugu_news[0][0],telugu_news[0][2]);"><script>document.write("<img src="+telugu_news[0][1]+" class='thumb shadows'>");</script></a>
 				
 				<h2 class="inner-title-2">Uttar Pradesh News Channels</h2>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLRPaRYBRzM4Jpo5GvpYxG0e_hyiFbJLhKp7M2cs9w=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('ABP Ganga','TEWNGzCGDqA');" class="thumb shadows"></a>
+				<a href="#" onclick="changeMe(uttarpradesh_news[0][0],uttarpradesh_news[0][2]);"><script>document.write("<img src="+uttarpradesh_news[0][1]+" class='thumb shadows'>");</script></a>
 
 				<h2 class="inner-title-2">Kannada News Channels</h2>
-				<a href="#"><img src="https://yt3.ggpht.com/UMqozcXhTE5n5NjlARMjnFZUNLixc7lzMsfakQn2SXaRG-OAPKHpBKQ7RXxqik9HDcfDFVDNFQ=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('TV9 Kannada','jdJoOhqCipA');" class="thumb shadows"></a>
+				<a href="#" onclick="changeMe(kannada_news[0][0],kannada_news[0][2]);"><script>document.write("<img src="+kannada_news[0][1]+" class='thumb shadows'>");</script></a>
 
 				<h2 class="inner-title-2">Malyalam News Channels</h2>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQHgfihKaHSNRNhVrWdM3GCPr1U8T7so29LG1pmFtE=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Asianet News','PNR06O9sSio');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLQR_HHKjdvdQApyDPMpY1n0Mp2ITQ98mqbVJ2ywTA=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Manorama News','JtLBF_Gjeiw');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSkMXEVy7aIk2b6N6kwjvPOalWLEd9bSeWQKBAt_A=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Matrubhumi News','YGEgelAiUf0');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLT2XeMoTlrtkhJPVH2dApoz_yVx1eOgF7I6UV4U0Q=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('MediaoneTV Live','yIe3anl_2Ks');" class="thumb shadows"></a>
+				<a href="#" onclick="changeMe(malyalam_news[0][0],malyalam_news[0][2]);"><script>document.write("<img src="+malyalam_news[0][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(malyalam_news[1][0],malyalam_news[1][2]);"><script>document.write("<img src="+malyalam_news[1][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(malyalam_news[2][0],malyalam_news[2][2]);"><script>document.write("<img src="+malyalam_news[2][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(malyalam_news[3][0],malyalam_news[3][2]);"><script>document.write("<img src="+malyalam_news[3][1]+" class='thumb shadows'>");</script></a>
 
 				<h2 class="inner-title-2">Punjabi News Channels</h2>
-				<a href="#"><img src="https://yt3.ggpht.com/yMWaW5afHyQA0S9CaYjO92POlHWnGaCF3kQtxlbfmBfX3NM9yrHERUlf16qoTzuY-9bML_qgEQ=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('ABP Sanja','IdzDW-aFzR8');" class="thumb shadows"></a>
+				<a href="#" onclick="changeMe(punjabi_news[0][0],punjabi_news[0][2]);"><script>document.write("<img src="+punjabi_news[0][1]+" class='thumb shadows'>");</script></a>
 
 				<h2 class="inner-title-2">International News Channels</h2>
-				<a href="#"><img src="https://yt3.ggpht.com/yf11CBlHMr2hTqx-gUoAR_v9W0iRSK7O8PD5Wi5qKIcU7cKKF11Dhwr2KuKZ_SWRnxDVKIct=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('euronews','sPgqEHsONK8');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/E96qzkAoX81DQs7wqRHR4rNk1esa4quBPzda2QRzImlhoHOVgRdAN8o-S0Rb_hpygo_n4LdhwTE=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Sky News','9Auq9mYxFEE');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSGYwgujx1VgMYEpdurTfh8NRmOehOXf16DeMKoDfw=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('DW News','m01az_TdpQI');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSSvx6Lajinz_I-_33UiIWNItieFMkWIAxbDuR_AA=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('France 24 English','h3MuIUNCCzI');" class="thumb shadows"></a>
+				<a href="#" onclick="changeMe(international_news[0][0],international_news[0][2]);"><script>document.write("<img src="+international_news[0][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(international_news[1][0],international_news[1][2]);"><script>document.write("<img src="+international_news[1][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(international_news[2][0],international_news[2][2]);"><script>document.write("<img src="+international_news[2][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(international_news[3][0],international_news[3][2]);"><script>document.write("<img src="+international_news[3][1]+" class='thumb shadows'>");</script></a>
 
 				<h2 class="inner-title-2">Hindi Music Channel(s)</h2>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLRDyDkU3Ht6c9zxpz1RMbB9fsQKQih6gw6EnoTiUg=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Mastiii Live TV','IGAMw7WW9kM');" class="thumb shadows"></a>
+				<a href="#" onclick="changeMe(hindi_music[0][0],hindi_music[0][2]);"><script>document.write("<img src="+hindi_music[0][1]+" class='thumb shadows'>");</script></a>
 
 				<h2 class="inner-title-2">Hindi Business/Stock Channel(s)</h2>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSyRjbzRKUYj309uO4sP5h3OrYedoJV1_kQxsTP=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('CNBC Awaaz','q6pQRI2-0lQ');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLTPQNgnqj9M6s6Ak-e254fh2M2Y7_lmoUabvu4qCqA=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('ET Now','zmKEMv_uXfc');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLSz9FJpaIi9Qqg8EabODY1c-EeFFAd4ao8f41e-=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('NDTV Profit','GPKXF3mzAlU');" class="thumb shadows"></a>
-				<a href="#"><img src="https://yt3.ggpht.com/ytc/AKedOLTOCvAGQKTo2AG05ND9wRxdK0EFIq8quSSLH4q1qA=s48-c-k-c0x00ffffff-no-rj" onclick="changeMe('Zee Business','mw42pNMW4Ho');" class="thumb shadows"></a>
+				<a href="#" onclick="changeMe(hindi_business[0][0],hindi_business[0][2]);"><script>document.write("<img src="+hindi_business[0][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(hindi_business[1][0],hindi_business[1][2]);"><script>document.write("<img src="+hindi_business[1][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(hindi_business[2][0],hindi_business[2][2]);"><script>document.write("<img src="+hindi_business[2][1]+" class='thumb shadows'>");</script></a>
+				<a href="#" onclick="changeMe(hindi_business[3][0],hindi_business[3][2]);"><script>document.write("<img src="+hindi_business[3][1]+" class='thumb shadows'>");</script></a>
 			</div>
 			</div>
 		</div>
