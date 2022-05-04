@@ -42,7 +42,7 @@ var bangla_news =
 
 var tamil_news = 
 [
-   ["Polimer News", "https://yt3.ggpht.com/ytc/AKedOLTfEDGv-ChLg5MyVNfcvC3QXPQMzZA3jj-St9QRip0=s48-c-k-c0x00ffffff-no-rj", "7LvCANd8lug", "1"],
+   ["Polimer News", "https://yt3.ggpht.com/ytc/AKedOLTfEDGv-ChLg5MyVNfcvC3QXPQMzZA3jj-St9QRip0=s48-c-k-c0x00ffffff-no-rj", "HUBJ7R9qnTg", "1"],
    ["Sun News", "https://yt3.ggpht.com/ytc/AKedOLRiRCfupG7Kh0hHovoLuGlUmzpEigK1nXh4HhUoEw=s48-c-k-c0x00ffffff-no-rj", "kzwbYu1diCY", "2"],
    ["News18 Tamil Nadu", "https://yt3.ggpht.com/ytc/AKedOLQOBIUE52Dou16m-d6q3C4Z-pmYPei9qgdyZfG2=s48-c-k-c0x00ffffff-no-rj", "mQrZJFyYzlI", "3"],
 ];
