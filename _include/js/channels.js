@@ -1,6 +1,6 @@
 var hindi_news = 
 [
-   //["DD News", "https://yt3.ggpht.com/ytc/AKedOLQtlX3rWNbvBfc9eOCnu5jajwWVrxwe9NvqtLBB1w=s48-c-k-c0x00ffffff-no-rj", "ix8-r30MK7A", "1"],
+   ["DD News", "https://yt3.ggpht.com/ytc/AKedOLQtlX3rWNbvBfc9eOCnu5jajwWVrxwe9NvqtLBB1w=s48-c-k-c0x00ffffff-no-rj", "QmERLqjlHdo", "1"],
    ["ABP News", "https://yt3.ggpht.com/ytc/AKedOLRUToLipy4MP82mnh40IvVCb4gOykJssP3S4anLCcE=s48-c-k-c0x00ffffff-no-rj", "nyd-xznCpJc", "2"],
    ["India TV", "https://yt3.ggpht.com/y5S847YDNlDZNUUk3xmEfVMUDu2XSe0yAU_qvIpbwKi5VgIYQQc3FGeOANbgu-36sBEDpAwDAQ=s48-c-k-c0x00ffffff-no-rj", "Xmm3Kr5P1Uw", "3"],
    ["NDTV India", "https://yt3.ggpht.com/ytc/AKedOLTTJEVRKRq2MQmhnG83AFSZQRD6iGclKV1swgpSrg=s48-c-k-c0x00ffffff-no-rj", "MN8p-Vrn6G0", "4"],
