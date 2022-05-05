@@ -35,7 +35,7 @@ var marathi_news =
 
 var bangla_news = 
 [
-   ["SOMOY TV", "https://yt3.ggpht.com/ytc/AKedOLR-RXr5kKOUNVS9tu7RXQwkrVlb4wc2Jh9PQtX70A=s48-c-k-c0x00ffffff-no-rj", "LCvhG9BEzv4", "1"],
+   ["SOMOY TV", "https://yt3.ggpht.com/ytc/AKedOLR-RXr5kKOUNVS9tu7RXQwkrVlb4wc2Jh9PQtX70A=s48-c-k-c0x00ffffff-no-rj", "MSVPhMPtAk4", "1"],
    ["News18 Bangla", "https://yt3.ggpht.com/ytc/AKedOLQWL430dl4QrXukPt8dsPlpH-82885eT3IAkor8OA=s48-c-k-c0x00ffffff-no-rj", "TeJ214D_5_4", "2"],
    ["Republic Bangla", "https://yt3.ggpht.com/ytc/AKedOLTfaBAtNBkiiK7lDJi-8WWfFzNIg_mqXZQOUREq=s48-c-k-c0x00ffffff-no-rj", "f4sENkugEVE", "3"],
 ];
