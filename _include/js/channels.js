@@ -80,7 +80,7 @@ var hindi_music =
 var hindi_business = 
 [
    ["CNBC Awaaz", "https://yt3.ggpht.com/ytc/AKedOLSyRjbzRKUYj309uO4sP5h3OrYedoJV1_kQxsTP=s48-c-k-c0x00ffffff-no-rj", "TD0A7fHAxKw", "1"],
-   //["ET Now", "https://yt3.ggpht.com/ytc/AKedOLTPQNgnqj9M6s6Ak-e254fh2M2Y7_lmoUabvu4qCqA=s48-c-k-c0x00ffffff-no-rj", "zmKEMv_uXfc", "2"],
+   ["ET Now", "https://yt3.ggpht.com/ytc/AKedOLTPQNgnqj9M6s6Ak-e254fh2M2Y7_lmoUabvu4qCqA=s48-c-k-c0x00ffffff-no-rj", "B0JmVcmM2Oc", "2"],
    ["NDTV Profit", "https://yt3.ggpht.com/ytc/AKedOLSz9FJpaIi9Qqg8EabODY1c-EeFFAd4ao8f41e-=s48-c-k-c0x00ffffff-no-rj", "GPKXF3mzAlU", "3"],
    ["Zee Business", "https://yt3.ggpht.com/ytc/AKedOLTOCvAGQKTo2AG05ND9wRxdK0EFIq8quSSLH4q1qA=s48-c-k-c0x00ffffff-no-rj", "ho0qGzh7Lro", "4"],
    ["ET Now Swadesh", "https://yt3.ggpht.com/UoZ3rekcGKNNRVWFFESd41MNmRr3MCc2lYUC7SGXhktapiu5uAArA8V8czN2Q0Zg9G5wwFGf=s48-c-k-c0x00ffffff-no-rj", "WNBapKzrdOU", "5"],
