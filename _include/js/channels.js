@@ -16,7 +16,7 @@ var english_news =
    ["Times Now", "https://yt3.ggpht.com/-jVa8uJSMkzaiHVbe3ZX9Ux5gyY9g9DZes2hyy0dXkhv1uzC3yMO-2gEAPMdJ-8isvMjh4E1U2k=s48-c-k-c0x00ffffff-no-rj", "eARMIDwS3VQ", "2"],
    ["India Today", "https://yt3.ggpht.com/ytc/AKedOLSt-tHE1CSHmihgq351JIiXq9-hdITBE4EYNGi2HQ=s48-c-k-c0x00ffffff-no-rj", "lyeyoqwXm5o", "3"],
    ["NDTV", "https://yt3.ggpht.com/ytc/AKedOLQ21BVR2XXhuPuSZAf1HC6quBldr1TQYxXO552Mre4=s48-c-k-c0x00ffffff-no-rj", "WB-y7_ymPJ4", "4"],
-   ["Republic World", "https://yt3.ggpht.com/ytc/AKedOLSsQCQ5OPDxOO21aNL5b7dHEA-42JUP2W7oxMefwA=s48-c-k-c0x00ffffff-no-rj", "mCodobENOwM", "5"],
+   ["Republic World", "https://yt3.ggpht.com/ytc/AKedOLSsQCQ5OPDxOO21aNL5b7dHEA-42JUP2W7oxMefwA=s48-c-k-c0x00ffffff-no-rj", "h4c7CSw1ygM", "5"],
 ];
 var gujarati_news = 
 [
