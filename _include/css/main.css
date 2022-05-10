@@ -1476,3 +1476,9 @@ footer a {
   color: white;
   background: #05C3DD;
 }
+
+.aligncenter {
+	text-align:center;
+	float:center;
+	padding:5px;
+}
