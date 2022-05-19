@@ -4,11 +4,11 @@ var hindi_news =
    ["ABP News", "https://yt3.ggpht.com/ytc/AKedOLRUToLipy4MP82mnh40IvVCb4gOykJssP3S4anLCcE=s48-c-k-c0x00ffffff-no-rj", "nyd-xznCpJc", "2"],
    ["India TV", "https://yt3.ggpht.com/y5S847YDNlDZNUUk3xmEfVMUDu2XSe0yAU_qvIpbwKi5VgIYQQc3FGeOANbgu-36sBEDpAwDAQ=s48-c-k-c0x00ffffff-no-rj", "Xmm3Kr5P1Uw", "3"],
    ["NDTV India", "https://yt3.ggpht.com/ytc/AKedOLTTJEVRKRq2MQmhnG83AFSZQRD6iGclKV1swgpSrg=s48-c-k-c0x00ffffff-no-rj", "MN8p-Vrn6G0", "4"],
-   ["Republic Bharat", "https://yt3.ggpht.com/ytc/AKedOLTHZuOu1RwxGkcEsHKE6_WfmeST3JPoWNLxir3alA=s48-c-k-c0x00ffffff-no-rj", "EKOaNlUpSSk", "5"],
+   ["Republic Bharat", "https://yt3.ggpht.com/ytc/AKedOLTHZuOu1RwxGkcEsHKE6_WfmeST3JPoWNLxir3alA=s48-c-k-c0x00ffffff-no-rj", "2jp-bgsXkac", "5"],
    ["TV9 Bharatvarsh", "https://yt3.ggpht.com/szaq2QN1WM5Qk5dcSTayT3SZaXCVXcH0Am4CLLfRrb0uh0jrz4mhFvsrLmaE5hTiKL6_1M3lHA=s48-c-k-c0x00ffffff-no-rj", "6t7eH1x3VXI", "6"],
    ["Aaj Tak", "https://yt3.ggpht.com/ytc/AKedOLQRJiELJWT983TxaxQ8nKgVGP4jgWTvqTaOUFekrB0=s48-c-k-c0x00ffffff-no-rj", "Cy_6-_XUW-c", "7"],
    ["News 24", "https://yt3.ggpht.com/ytc/AKedOLRdDqZAUUEasO_6XwYclpg8BCjRMssl2KrZGBSIUQ=s48-c-k-c0x00ffffff-no-rj", "aC650xB9NNc", "8"],
-   ["Zee News", "https://yt3.ggpht.com/ytc/AKedOLQ8kKijuHJ7kY9prcuIXQ1Aht4yznFzAZe-jleevQw=s48-c-k-c0x00ffffff-no-rj", "d8alXW2CAuY", "9"],
+   ["Zee News", "https://yt3.ggpht.com/ytc/AKedOLQ8kKijuHJ7kY9prcuIXQ1Aht4yznFzAZe-jleevQw=s48-c-k-c0x00ffffff-no-rj", "E1CbnI8tHt0", "9"],
 ];
 var english_news = 
 [
@@ -16,7 +16,7 @@ var english_news =
    ["Times Now", "https://yt3.ggpht.com/-jVa8uJSMkzaiHVbe3ZX9Ux5gyY9g9DZes2hyy0dXkhv1uzC3yMO-2gEAPMdJ-8isvMjh4E1U2k=s48-c-k-c0x00ffffff-no-rj", "eARMIDwS3VQ", "2"],
    ["India Today", "https://yt3.ggpht.com/ytc/AKedOLSt-tHE1CSHmihgq351JIiXq9-hdITBE4EYNGi2HQ=s48-c-k-c0x00ffffff-no-rj", "lyeyoqwXm5o", "3"],
    ["NDTV", "https://yt3.ggpht.com/ytc/AKedOLQ21BVR2XXhuPuSZAf1HC6quBldr1TQYxXO552Mre4=s48-c-k-c0x00ffffff-no-rj", "WB-y7_ymPJ4", "4"],
-   ["Republic World", "https://yt3.ggpht.com/ytc/AKedOLSsQCQ5OPDxOO21aNL5b7dHEA-42JUP2W7oxMefwA=s48-c-k-c0x00ffffff-no-rj", "h4c7CSw1ygM", "5"],
+   ["Republic World", "https://yt3.ggpht.com/ytc/AKedOLSsQCQ5OPDxOO21aNL5b7dHEA-42JUP2W7oxMefwA=s48-c-k-c0x00ffffff-no-rj", "EguYDSbSBZM", "5"],
 ];
 var gujarati_news = 
 [
@@ -33,7 +33,7 @@ var marathi_news =
 ];
 var bangla_news = 
 [
-   ["SOMOY TV", "https://yt3.ggpht.com/ytc/AKedOLR-RXr5kKOUNVS9tu7RXQwkrVlb4wc2Jh9PQtX70A=s48-c-k-c0x00ffffff-no-rj", "MSVPhMPtAk4", "1"],
+   ["SOMOY TV", "https://yt3.ggpht.com/ytc/AKedOLR-RXr5kKOUNVS9tu7RXQwkrVlb4wc2Jh9PQtX70A=s48-c-k-c0x00ffffff-no-rj", "6eOCceaS9h0", "1"],
    ["News18 Bangla", "https://yt3.ggpht.com/ytc/AKedOLQWL430dl4QrXukPt8dsPlpH-82885eT3IAkor8OA=s48-c-k-c0x00ffffff-no-rj", "TeJ214D_5_4", "2"],
    ["Republic Bangla", "https://yt3.ggpht.com/ytc/AKedOLTfaBAtNBkiiK7lDJi-8WWfFzNIg_mqXZQOUREq=s48-c-k-c0x00ffffff-no-rj", "f4sENkugEVE", "3"],
 ];

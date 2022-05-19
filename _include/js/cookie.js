@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', function () {
-cookieconsent.run({"notice_banner_type":"headline","consent_type":"implied","palette":"dark","language":"en","page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"https://tv24x7.netlify.app/","website_privacy_policy_url":"https://tv24x7.netlify.app/cms/cms_privacy_policy.html"});
+cookieconsent.run({"notice_banner_type":"headline","consent_type":"implied","palette":"dark","language":"en","page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"http://tv24x7.co.in/","website_privacy_policy_url":"http://tv24x7.co.in/cms/cms_privacy_policy.html"});
 });
