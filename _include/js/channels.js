@@ -4,16 +4,17 @@ var hindi_news =
    ["ABP News", "https://yt3.ggpht.com/ytc/AKedOLRUToLipy4MP82mnh40IvVCb4gOykJssP3S4anLCcE=s48-c-k-c0x00ffffff-no-rj", "nyd-xznCpJc", "2"],
    ["India TV", "https://yt3.ggpht.com/y5S847YDNlDZNUUk3xmEfVMUDu2XSe0yAU_qvIpbwKi5VgIYQQc3FGeOANbgu-36sBEDpAwDAQ=s48-c-k-c0x00ffffff-no-rj", "Xmm3Kr5P1Uw", "3"],
    ["NDTV India", "https://yt3.ggpht.com/ytc/AKedOLTTJEVRKRq2MQmhnG83AFSZQRD6iGclKV1swgpSrg=s48-c-k-c0x00ffffff-no-rj", "MN8p-Vrn6G0", "4"],
-   ["Republic Bharat", "https://yt3.ggpht.com/ytc/AKedOLTHZuOu1RwxGkcEsHKE6_WfmeST3JPoWNLxir3alA=s48-c-k-c0x00ffffff-no-rj", "2jp-bgsXkac", "5"],
+   ["Republic Bharat", "https://yt3.ggpht.com/ytc/AKedOLTHZuOu1RwxGkcEsHKE6_WfmeST3JPoWNLxir3alA=s48-c-k-c0x00ffffff-no-rj", "qfrocHBy6RQ", "5"],
    ["TV9 Bharatvarsh", "https://yt3.ggpht.com/szaq2QN1WM5Qk5dcSTayT3SZaXCVXcH0Am4CLLfRrb0uh0jrz4mhFvsrLmaE5hTiKL6_1M3lHA=s48-c-k-c0x00ffffff-no-rj", "6t7eH1x3VXI", "6"],
    ["Aaj Tak", "https://yt3.ggpht.com/ytc/AKedOLQRJiELJWT983TxaxQ8nKgVGP4jgWTvqTaOUFekrB0=s48-c-k-c0x00ffffff-no-rj", "Cy_6-_XUW-c", "7"],
    ["News 24", "https://yt3.ggpht.com/ytc/AKedOLRdDqZAUUEasO_6XwYclpg8BCjRMssl2KrZGBSIUQ=s48-c-k-c0x00ffffff-no-rj", "aC650xB9NNc", "8"],
    ["Zee News", "https://yt3.ggpht.com/ytc/AKedOLQ8kKijuHJ7kY9prcuIXQ1Aht4yznFzAZe-jleevQw=s48-c-k-c0x00ffffff-no-rj", "E1CbnI8tHt0", "9"],
+   ["TIMES NOW Navbharat", "https://yt3.ggpht.com/6EZ1WVFDLrR-A5wShjgmKd4q5VMbJLgyXtwyHmA-wq9y-3hA61kdu870RW3l9Av8eQIrBZVJyw=s48-c-k-c0x00ffffff-no-rj", "9vHNoWgWXZ8", "10"],
 ];
 var english_news = 
 [
    ["CNN News 18", "https://yt3.ggpht.com/ytc/AKedOLQZYIayv7xgavlSTqkrCB_OsPxeG0tkCsvN6p539Q=s48-c-k-c0x00ffffff-no-rj", "H8U3UwRvTBs", "1"],
-   ["Times Now", "https://yt3.ggpht.com/-jVa8uJSMkzaiHVbe3ZX9Ux5gyY9g9DZes2hyy0dXkhv1uzC3yMO-2gEAPMdJ-8isvMjh4E1U2k=s48-c-k-c0x00ffffff-no-rj", "eARMIDwS3VQ", "2"],
+   ["Times Now", "https://yt3.ggpht.com/-jVa8uJSMkzaiHVbe3ZX9Ux5gyY9g9DZes2hyy0dXkhv1uzC3yMO-2gEAPMdJ-8isvMjh4E1U2k=s48-c-k-c0x00ffffff-no-rj", "EDl0_ttJLq4", "2"],
    ["India Today", "https://yt3.ggpht.com/ytc/AKedOLSt-tHE1CSHmihgq351JIiXq9-hdITBE4EYNGi2HQ=s48-c-k-c0x00ffffff-no-rj", "lyeyoqwXm5o", "3"],
    ["NDTV", "https://yt3.ggpht.com/ytc/AKedOLQ21BVR2XXhuPuSZAf1HC6quBldr1TQYxXO552Mre4=s48-c-k-c0x00ffffff-no-rj", "WB-y7_ymPJ4", "4"],
    ["Republic World", "https://yt3.ggpht.com/ytc/AKedOLSsQCQ5OPDxOO21aNL5b7dHEA-42JUP2W7oxMefwA=s48-c-k-c0x00ffffff-no-rj", "EguYDSbSBZM", "5"],
