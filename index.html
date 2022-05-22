@@ -68,9 +68,12 @@
 				document.write("<iframe src='https://www.youtube.com/embed/"+hindi_news[0][2]+"?rel=0&modestbranding=1&autohide=1&mute=0&showinfo=0&controls=1&autoplay=1&enablejsapi=1' style='position:absolute; width:100%; height:100%;' width='100%' height='100%' frameborder='0' allowfullscreen></iframe>");
 			</script>
 		</div>
+		<audio id="audio" src="/_include/audio/click.wav"></audio>
 		<script>
 			function changeMe(title, id)
 			{
+				var audio = document.getElementById("audio");
+				audio.play();
 				document.getElementById("title3").innerHTML = title;
 				document.getElementById("youtube").innerHTML = "<iframe src='https://www.youtube.com/embed/"+id+"?rel=0&modestbranding=1&autohide=1&mute=0&showinfo=0&controls=1&autoplay=1&enablejsapi=1' style='position:absolute; width:100%; height:100%;' width='100%' height='100%' frameborder='0' allowfullscreen rel='preload'></iframe>";
 			}
@@ -148,11 +151,9 @@
 				<a href="#" onclick="changeMe(international_news[2][0],international_news[2][2]);"><script>document.write("<img src="+international_news[2][1]+" class='thumb shadows'>");</script></a>
 				<a href="#" onclick="changeMe(international_news[3][0],international_news[3][2]);"><script>document.write("<img src="+international_news[3][1]+" class='thumb shadows'>");</script></a>
 				
-				<!--
 				<h2 class="inner-title-2">Hindi Music Channel(s)</h2>
 				<a href="#" onclick="changeMe(hindi_music[0][0],hindi_music[0][2]);"><script>document.write("<img src="+hindi_music[0][1]+" class='thumb shadows'>");</script></a>
-				-->
-
+				
 				<h2 class="inner-title-2">Hindi Business/Stock Channel(s)</h2>
 				<a href="#" onclick="changeMe(hindi_business[0][0],hindi_business[0][2]);"><script>document.write("<img src="+hindi_business[0][1]+" class='thumb shadows'>");</script></a>
 				<a href="#" onclick="changeMe(hindi_business[1][0],hindi_business[1][2]);"><script>document.write("<img src="+hindi_business[1][1]+" class='thumb shadows'>");</script></a>
