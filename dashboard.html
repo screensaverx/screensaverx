@@ -219,6 +219,18 @@
 			</script>
         </div>
 
+		<!-- Sports -->
+		<div class="row">	
+			<h3 class='spec'>Sports</h3>
+			<script>
+			for (var i = 0, length = sports.length; i < length; i++) 
+			{
+				
+				document.write("<div class='span4'><div class='video-container'>"+sports[i][0]+" <br><br><iframe width='853' height='480' src='https://www.youtube.com/embed/"+sports[i][2]+"' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div></div>");
+			}
+			</script>
+        </div>
+
 		<div>		
 			DISCLAIMER: TV 24x7 is a third-party API player compliant with YouTube's terms of service. All YouTube videos, channels and tv channels displaued on this website / application are played via the official YouTube embedded player through the YouTube API. By viewing TV channels on this web and application, you agree to <a href="/cms/cms_terms.html">terms of use</a>.
 			This is NOT an official app for the various online media services. This is only an unofficial 3rd-party client that complies with their 3rd party API terms of service, and is NOT an affiliate nor related product of those services.
