@@ -8,8 +8,8 @@ var hindi_news =
    ["TV9 Bharatvarsh", "https://yt3.ggpht.com/szaq2QN1WM5Qk5dcSTayT3SZaXCVXcH0Am4CLLfRrb0uh0jrz4mhFvsrLmaE5hTiKL6_1M3lHA=s48-c-k-c0x00ffffff-no-rj", "6t7eH1x3VXI", "6"],
    ["Aaj Tak", "https://yt3.ggpht.com/ytc/AKedOLQRJiELJWT983TxaxQ8nKgVGP4jgWTvqTaOUFekrB0=s48-c-k-c0x00ffffff-no-rj", "Cy_6-_XUW-c", "7"],
    ["News 24", "https://yt3.ggpht.com/ytc/AKedOLRdDqZAUUEasO_6XwYclpg8BCjRMssl2KrZGBSIUQ=s48-c-k-c0x00ffffff-no-rj", "aC650xB9NNc", "8"],
-   ["Zee News", "https://yt3.ggpht.com/ytc/AKedOLQ8kKijuHJ7kY9prcuIXQ1Aht4yznFzAZe-jleevQw=s48-c-k-c0x00ffffff-no-rj", "E1CbnI8tHt0", "9"],
-   ["TIMES NOW Navbharat", "https://yt3.ggpht.com/6EZ1WVFDLrR-A5wShjgmKd4q5VMbJLgyXtwyHmA-wq9y-3hA61kdu870RW3l9Av8eQIrBZVJyw=s48-c-k-c0x00ffffff-no-rj", "G2W2PXM5D9M", "10"],
+   ["Zee News", "https://yt3.ggpht.com/ytc/AKedOLQ8kKijuHJ7kY9prcuIXQ1Aht4yznFzAZe-jleevQw=s48-c-k-c0x00ffffff-no-rj", "tIOo8bim61o", "9"],
+   ["TIMES NOW Navbharat", "https://yt3.ggpht.com/6EZ1WVFDLrR-A5wShjgmKd4q5VMbJLgyXtwyHmA-wq9y-3hA61kdu870RW3l9Av8eQIrBZVJyw=s48-c-k-c0x00ffffff-no-rj", "uO9GwpiSjvw", "10"],
 ];
 var english_news = 
 [
@@ -40,9 +40,11 @@ var bangla_news =
 ];
 var tamil_news = 
 [
-   ["Polimer News", "https://yt3.ggpht.com/ytc/AKedOLTfEDGv-ChLg5MyVNfcvC3QXPQMzZA3jj-St9QRip0=s48-c-k-c0x00ffffff-no-rj", "HUBJ7R9qnTg", "1"],
+   ["Polimer News", "https://yt3.ggpht.com/ytc/AKedOLSUU1WCzsMtO0VgpcBN40a8g6xs_w5SCYaGZgaO_k0=s48-c-k-c0x00ffffff-no-rj", "6wMP9uEu7m4", "1"],
    ["Sun News", "https://yt3.ggpht.com/ytc/AKedOLRiRCfupG7Kh0hHovoLuGlUmzpEigK1nXh4HhUoEw=s48-c-k-c0x00ffffff-no-rj", "kzwbYu1diCY", "2"],
    ["News18 Tamil Nadu", "https://yt3.ggpht.com/ytc/AKedOLQOBIUE52Dou16m-d6q3C4Z-pmYPei9qgdyZfG2=s48-c-k-c0x00ffffff-no-rj", "mQrZJFyYzlI", "3"],
+   ["PuthiyaThalaimurai TV", "https://yt3.ggpht.com/5ZtoCHyWV95KdgDkYjVfhC1TCdZjHHE8_ar96Uvd8ulPp9rPbKhyds_ULHZUTdR27_XMdGbcLPE=s48-c-k-c0x00ffffff-no-rj", "NX18e_Wh7NA", "4"],
+   
 ];
 var telugu_news = 
 [
@@ -88,5 +90,5 @@ var hindi_business =
 ];
 var sports = 
 [
-   ["Doordarshan Sports", "https://yt3.ggpht.com/-kM_MY0xy0rfkj3sw0VtK102UUBvajdrmfpaLQFJiulegEwuCzTPOmA130rISWGnKIQGDPGGww=s48-c-k-c0x00ffffff-no-rj", "CMf5m_SnmAY", "1"],
+   ["Doordarshan Sports", "https://yt3.ggpht.com/-kM_MY0xy0rfkj3sw0VtK102UUBvajdrmfpaLQFJiulegEwuCzTPOmA130rISWGnKIQGDPGGww=s48-c-k-c0x00ffffff-no-rj", "FpeKoSi6F2s", "1"],
 ];
