@@ -58,7 +58,7 @@ var kannada_news =
 [
    ["TV9 Kannada", "https://yt3.ggpht.com/UMqozcXhTE5n5NjlARMjnFZUNLixc7lzMsfakQn2SXaRG-OAPKHpBKQ7RXxqik9HDcfDFVDNFQ=s48-c-k-c0x00ffffff-no-rj", "jdJoOhqCipA", "1"],
 ];
-var malyalam_news = 
+var malayalam_news = 
 [
    ["Asianet News", "https://yt3.ggpht.com/ytc/AKedOLQHgfihKaHSNRNhVrWdM3GCPr1U8T7so29LG1pmFtE=s48-c-k-c0x00ffffff-no-rj", "PNR06O9sSio", "1"],
    ["Manorama News", "https://yt3.ggpht.com/ytc/AKedOLQR_HHKjdvdQApyDPMpY1n0Mp2ITQ98mqbVJ2ywTA=s48-c-k-c0x00ffffff-no-rj", "JtLBF_Gjeiw", "2"],
@@ -90,5 +90,5 @@ var hindi_business =
 ];
 var sports = 
 [
-   ["Doordarshan Sports", "https://yt3.ggpht.com/-kM_MY0xy0rfkj3sw0VtK102UUBvajdrmfpaLQFJiulegEwuCzTPOmA130rISWGnKIQGDPGGww=s48-c-k-c0x00ffffff-no-rj", "FpeKoSi6F2s", "1"],
+   ["Doordarshan Sports", "https://yt3.ggpht.com/-kM_MY0xy0rfkj3sw0VtK102UUBvajdrmfpaLQFJiulegEwuCzTPOmA130rISWGnKIQGDPGGww=s48-c-k-c0x00ffffff-no-rj", "yGULJU0zWDU", "1"],
 ];

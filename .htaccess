@@ -15,8 +15,5 @@ ExpiresActive On
 	ExpiresByType application/font-sfnt		"access plus 1 month"
 	ExpiresByType application/x-shockwave-flash	"access plus 1 month"  
 	ExpiresByType text/css				"access plus 1 month"  
-	ExpiresByType text/javascript			"access plus 12 hours"  
-	ExpiresByType application/javascript		"access plus 1 month"  
-	ExpiresByType application/x-javascript		"access plus 1 month"  
 	ExpiresByType audio/x-wav			"access plus 1 month"  
 </IfModule>
