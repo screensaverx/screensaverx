@@ -9,7 +9,7 @@ var hindi_news =
    ["Aaj Tak", "https://yt3.ggpht.com/ytc/AKedOLQRJiELJWT983TxaxQ8nKgVGP4jgWTvqTaOUFekrB0=s48-c-k-c0x00ffffff-no-rj", "Cy_6-_XUW-c", "7"],
    ["News 24", "https://yt3.ggpht.com/ytc/AKedOLRdDqZAUUEasO_6XwYclpg8BCjRMssl2KrZGBSIUQ=s48-c-k-c0x00ffffff-no-rj", "aC650xB9NNc", "8"],
    ["Zee News", "https://yt3.ggpht.com/ytc/AKedOLQ8kKijuHJ7kY9prcuIXQ1Aht4yznFzAZe-jleevQw=s48-c-k-c0x00ffffff-no-rj", "tIOo8bim61o", "9"],
-   ["TIMES NOW Navbharat", "https://yt3.ggpht.com/6EZ1WVFDLrR-A5wShjgmKd4q5VMbJLgyXtwyHmA-wq9y-3hA61kdu870RW3l9Av8eQIrBZVJyw=s48-c-k-c0x00ffffff-no-rj", "uO9GwpiSjvw", "10"],
+   ["TIMES NOW Navbharat", "https://yt3.ggpht.com/6EZ1WVFDLrR-A5wShjgmKd4q5VMbJLgyXtwyHmA-wq9y-3hA61kdu870RW3l9Av8eQIrBZVJyw=s48-c-k-c0x00ffffff-no-rj", "d7w8z9_PZo8", "10"],
 ];
 var english_news = 
 [
@@ -23,7 +23,7 @@ var gujarati_news =
 [
    ["TV9 Gujarati", "https://yt3.ggpht.com/ytc/AKedOLR8E478gf4F3e11eXaV1Th88zd2m4OEOp77VpnE1A=s48-c-k-c0x00ffffff-no-rj", "Mvz3_9O4p4s", "1"],
    ["ABP Asmita", "https://yt3.ggpht.com/ytc/AKedOLTrjHAKHvrNSmAaKygPhSuwwEY7dXmSDIZYc7VWPw=s48-c-k-c0x00ffffff-no-rj", "M-eEZfdNv1k", "2"],
-   ["News18 Gujarati", "https://yt3.ggpht.com/ytc/AKedOLQRNWjbaglFZG9wBg1uQpliM2tTGm6ReZseoMs2=s48-c-k-c0x00ffffff-no-rj", "0s_BkuwZVqk", "3"],
+   ["News18 Gujarati", "https://yt3.ggpht.com/ytc/AKedOLQRNWjbaglFZG9wBg1uQpliM2tTGm6ReZseoMs2=s48-c-k-c0x00ffffff-no-rj", "rAwreqPRI3w", "3"],
    ["Zee 24 Kalak", "https://yt3.ggpht.com/ytc/AKedOLSnkoyB7okPk53mb9usTiZK2NYyVR--RCIXM5mDcw=s48-c-k-c0x00ffffff-no-rj", "q-Kk5y3iFDg", "4"],
 ];
 var marathi_news = 
@@ -40,7 +40,7 @@ var bangla_news =
 ];
 var tamil_news = 
 [
-   ["Polimer News", "https://yt3.ggpht.com/ytc/AKedOLSUU1WCzsMtO0VgpcBN40a8g6xs_w5SCYaGZgaO_k0=s48-c-k-c0x00ffffff-no-rj", "6wMP9uEu7m4", "1"],
+   ["Polimer News", "https://yt3.ggpht.com/ytc/AKedOLSUU1WCzsMtO0VgpcBN40a8g6xs_w5SCYaGZgaO_k0=s48-c-k-c0x00ffffff-no-rj", "QZgReH7h_hQ", "1"],
    ["Sun News", "https://yt3.ggpht.com/ytc/AKedOLRiRCfupG7Kh0hHovoLuGlUmzpEigK1nXh4HhUoEw=s48-c-k-c0x00ffffff-no-rj", "kzwbYu1diCY", "2"],
    ["News18 Tamil Nadu", "https://yt3.ggpht.com/ytc/AKedOLQOBIUE52Dou16m-d6q3C4Z-pmYPei9qgdyZfG2=s48-c-k-c0x00ffffff-no-rj", "mQrZJFyYzlI", "3"],
    ["PuthiyaThalaimurai TV", "https://yt3.ggpht.com/5ZtoCHyWV95KdgDkYjVfhC1TCdZjHHE8_ar96Uvd8ulPp9rPbKhyds_ULHZUTdR27_XMdGbcLPE=s48-c-k-c0x00ffffff-no-rj", "NX18e_Wh7NA", "4"],
@@ -90,5 +90,5 @@ var hindi_business =
 ];
 var sports = 
 [
-   ["Doordarshan Sports", "https://yt3.ggpht.com/-kM_MY0xy0rfkj3sw0VtK102UUBvajdrmfpaLQFJiulegEwuCzTPOmA130rISWGnKIQGDPGGww=s48-c-k-c0x00ffffff-no-rj", "yGULJU0zWDU", "1"],
+   ["Doordarshan Sports", "https://yt3.ggpht.com/-kM_MY0xy0rfkj3sw0VtK102UUBvajdrmfpaLQFJiulegEwuCzTPOmA130rISWGnKIQGDPGGww=s48-c-k-c0x00ffffff-no-rj", "XAB3UsblZb4", "1"],
 ];
