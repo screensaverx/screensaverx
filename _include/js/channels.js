@@ -5,11 +5,15 @@ var hindi_news =
    ["India TV", "https://yt3.ggpht.com/y5S847YDNlDZNUUk3xmEfVMUDu2XSe0yAU_qvIpbwKi5VgIYQQc3FGeOANbgu-36sBEDpAwDAQ=s48-c-k-c0x00ffffff-no-rj", "Xmm3Kr5P1Uw", "3"],
    ["NDTV India", "https://yt3.ggpht.com/ytc/AKedOLTTJEVRKRq2MQmhnG83AFSZQRD6iGclKV1swgpSrg=s48-c-k-c0x00ffffff-no-rj", "MN8p-Vrn6G0", "4"],
    ["Republic Bharat", "https://yt3.ggpht.com/ytc/AKedOLTHZuOu1RwxGkcEsHKE6_WfmeST3JPoWNLxir3alA=s48-c-k-c0x00ffffff-no-rj", "qfrocHBy6RQ", "5"],
-   ["TV9 Bharatvarsh", "https://yt3.ggpht.com/szaq2QN1WM5Qk5dcSTayT3SZaXCVXcH0Am4CLLfRrb0uh0jrz4mhFvsrLmaE5hTiKL6_1M3lHA=s48-c-k-c0x00ffffff-no-rj", "6t7eH1x3VXI", "6"],
+   ["TV9 Bharatvarsh", "https://yt3.ggpht.com/szaq2QN1WM5Qk5dcSTayT3SZaXCVXcH0Am4CLLfRrb0uh0jrz4mhFvsrLmaE5hTiKL6_1M3lHA=s48-c-k-c0x00ffffff-no-rj", "e3JMsqUEwWk", "6"],
    ["Aaj Tak", "https://yt3.ggpht.com/ytc/AKedOLQRJiELJWT983TxaxQ8nKgVGP4jgWTvqTaOUFekrB0=s48-c-k-c0x00ffffff-no-rj", "Cy_6-_XUW-c", "7"],
    ["News 24", "https://yt3.ggpht.com/ytc/AKedOLRdDqZAUUEasO_6XwYclpg8BCjRMssl2KrZGBSIUQ=s48-c-k-c0x00ffffff-no-rj", "aC650xB9NNc", "8"],
-   ["Zee News", "https://yt3.ggpht.com/ytc/AKedOLQ8kKijuHJ7kY9prcuIXQ1Aht4yznFzAZe-jleevQw=s48-c-k-c0x00ffffff-no-rj", "9C0xQXpdX3E", "9"],
-   ["TIMES NOW Navbharat", "https://yt3.ggpht.com/6EZ1WVFDLrR-A5wShjgmKd4q5VMbJLgyXtwyHmA-wq9y-3hA61kdu870RW3l9Av8eQIrBZVJyw=s48-c-k-c0x00ffffff-no-rj", "63oINgvK778", "10"],
+
+   
+   
+   
+   ["Zee News", "https://yt3.ggpht.com/ytc/AKedOLQ8kKijuHJ7kY9prcuIXQ1Aht4yznFzAZe-jleevQw=s48-c-k-c0x00ffffff-no-rj", "7p2zymiaXUw", "9"],
+   ["TIMES NOW Navbharat", "https://yt3.ggpht.com/6EZ1WVFDLrR-A5wShjgmKd4q5VMbJLgyXtwyHmA-wq9y-3hA61kdu870RW3l9Av8eQIrBZVJyw=s48-c-k-c0x00ffffff-no-rj", "-etsGyfywTo", "10"],
 ];
 var english_news = 
 [
@@ -90,5 +94,5 @@ var hindi_business =
 ];
 var sports = 
 [
-   ["Doordarshan Sports", "https://yt3.ggpht.com/-kM_MY0xy0rfkj3sw0VtK102UUBvajdrmfpaLQFJiulegEwuCzTPOmA130rISWGnKIQGDPGGww=s48-c-k-c0x00ffffff-no-rj", "XAB3UsblZb4", "1"],
+   ["Doordarshan Sports", "https://yt3.ggpht.com/-kM_MY0xy0rfkj3sw0VtK102UUBvajdrmfpaLQFJiulegEwuCzTPOmA130rISWGnKIQGDPGGww=s48-c-k-c0x00ffffff-no-rj", "q4ZiT1aEWnQ", "1"],
 ];
