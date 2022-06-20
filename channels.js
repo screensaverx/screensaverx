@@ -90,5 +90,5 @@ var hindi_business =
 ];
 var sports = 
 [
-   ["Doordarshan Sports", "https://yt3.ggpht.com/-kM_MY0xy0rfkj3sw0VtK102UUBvajdrmfpaLQFJiulegEwuCzTPOmA130rISWGnKIQGDPGGww=s48-c-k-c0x00ffffff-no-rj", "Q6DZ6TSFg6E", "1"],
+   ["Doordarshan Sports", "https://yt3.ggpht.com/-kM_MY0xy0rfkj3sw0VtK102UUBvajdrmfpaLQFJiulegEwuCzTPOmA130rISWGnKIQGDPGGww=s48-c-k-c0x00ffffff-no-rj", "gq7yObztRFs", "1"],
 ];
