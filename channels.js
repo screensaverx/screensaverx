@@ -9,8 +9,7 @@ var hindi_news =
    ["Aaj Tak", "https://yt3.ggpht.com/ytc/AKedOLQRJiELJWT983TxaxQ8nKgVGP4jgWTvqTaOUFekrB0=s48-c-k-c0x00ffffff-no-rj", "Cy_6-_XUW-c", "7"],
    ["News 24", "https://yt3.ggpht.com/ytc/AKedOLRdDqZAUUEasO_6XwYclpg8BCjRMssl2KrZGBSIUQ=s48-c-k-c0x00ffffff-no-rj", "aC650xB9NNc", "8"],
    ["Zee News", "https://yt3.ggpht.com/ytc/AKedOLQ8kKijuHJ7kY9prcuIXQ1Aht4yznFzAZe-jleevQw=s48-c-k-c0x00ffffff-no-rj", "jdJQYikTwcE", "9"],
-   ["TIMES NOW Navbharat", "https://yt3.ggpht.com/6EZ1WVFDLrR-A5wShjgmKd4q5VMbJLgyXtwyHmA-wq9y-3hA61kdu870RW3l9Av8eQIrBZVJyw=s48-c-k-c0x00ffffff-no-rj", "jkCaAToAAnU", "10"],
-
+   ["TIMES NOW Navbharat", "https://yt3.ggpht.com/6EZ1WVFDLrR-A5wShjgmKd4q5VMbJLgyXtwyHmA-wq9y-3hA61kdu870RW3l9Av8eQIrBZVJyw=s48-c-k-c0x00ffffff-no-rj", "zS7LWJ5Itmo", "10"],
 ];
 var english_news = 
 [
@@ -86,7 +85,7 @@ var hindi_business =
    ["ET Now", "https://yt3.ggpht.com/ytc/AKedOLTPQNgnqj9M6s6Ak-e254fh2M2Y7_lmoUabvu4qCqA=s48-c-k-c0x00ffffff-no-rj", "fP9JZ9xDnhc", "2"],
    ["NDTV Profit", "https://yt3.ggpht.com/ytc/AKedOLSz9FJpaIi9Qqg8EabODY1c-EeFFAd4ao8f41e-=s48-c-k-c0x00ffffff-no-rj", "GPKXF3mzAlU", "3"],
    ["Zee Business", "https://yt3.ggpht.com/ytc/AKedOLTOCvAGQKTo2AG05ND9wRxdK0EFIq8quSSLH4q1qA=s48-c-k-c0x00ffffff-no-rj", "ho0qGzh7Lro", "4"],
-   ["ET Now Swadesh", "https://yt3.ggpht.com/UoZ3rekcGKNNRVWFFESd41MNmRr3MCc2lYUC7SGXhktapiu5uAArA8V8czN2Q0Zg9G5wwFGf=s48-c-k-c0x00ffffff-no-rj", "5tjdL-aX8Ro", "5"],
+   ["ET Now Swadesh", "https://yt3.ggpht.com/UoZ3rekcGKNNRVWFFESd41MNmRr3MCc2lYUC7SGXhktapiu5uAArA8V8czN2Q0Zg9G5wwFGf=s48-c-k-c0x00ffffff-no-rj", "LDurH4a9MDQ", "5"],
 ];
 var sports = 
 [
