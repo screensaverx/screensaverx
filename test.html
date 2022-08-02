@@ -1,14 +1,30 @@
-<div id="example"></div>
+<script>
+var standalone = window.navigator.standalone,
+  userAgent = window.navigator.userAgent.toLowerCase(),
+  safari = /safari/.test(userAgent),
+  ios = /iphone|ipod|ipad/.test(userAgent);
 
-<script type="text/javascript">
+if (ios) 
+{
+  if (!standalone && safari) 
+  {
+    document.write("iOS Broswe - Safari?");
+  } 
+  else if (!standalone && !safari) 
+  {
+    document.write("iOS Webview");
+  };
+} 
 
-txt = "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
-txt+= "<p>Browser Name: " + navigator.appName + "</p>";
-txt+= "<p>Browser Version: " + navigator.appVersion + "</p>";
-txt+= "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
-txt+= "<p>Platform: " + navigator.platform + "</p>";
-txt+= "<p>User-agent header: " + navigator.userAgent + "</p>";
-
-document.getElementById("example").innerHTML=txt;
-
+else 
+{
+  if (userAgent.includes('wv')) 
+  {
+    document.write("Android Webview");
+  } 
+  else 
+  {
+    document.write("Android Browser - Chrome?");
+  }
+};
 </script>
