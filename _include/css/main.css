@@ -1484,7 +1484,7 @@ footer a {
 }
 
 .blink_me {
-  animation: blinker 2s linear infinite;
+  animation: blinker 4s linear infinite;
 }
 
 @keyframes blinker {
@@ -1519,6 +1519,18 @@ footer a {
         opacity: 1;
         transform: translateY(0);
     } 
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+  color:#000000;
+  font-weight:bold;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 
 /* SLIDE IN ENDS */

@@ -3,28 +3,31 @@ var standalone = window.navigator.standalone,
 userAgent = window.navigator.userAgent.toLowerCase(),
 safari = /safari/.test(userAgent),
 ios = /iphone|ipod|ipad/.test(userAgent);
-
 if (ios) 
 {
   if (!standalone && safari) 
   {
-    document.write("iOS Broswe - Safari?");
+    var browser = "safari";
   } 
   else if (!standalone && !safari) 
   {
-    document.write("iOS Webview");
+    var browser = "ioswebview";
   };
 } 
-
 else 
 {
   if (userAgent.includes('wv')) 
   {
-    document.write("Android Webview");
+    var browser = "webview";
   } 
   else 
   {
-    document.write("Android Browser - Chrome?");
+	var browser = "chrome";
   }
 };
 </script>
+
+
+
+
+<blink> Here is your text that has to blink. </blink>
