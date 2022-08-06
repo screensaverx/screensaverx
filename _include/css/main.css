@@ -1499,6 +1499,7 @@ footer a {
 .slideanim {
     visibility:hidden;
     visibility:visible\9;/*For old IE browsers IE6-8 */
+	margin-bottom:10px;
 }
 .slideanim.slide {                  
     visibility: visible;                  
