@@ -1492,7 +1492,6 @@ footer a {
 .slideanim.slide {            
     visibility: visible;                  
     animation: slide 1s;
-	margin-bottom:20px;
 }
 .slideanim::after {
     /* useful when its child elements are float:left; */
