@@ -1483,27 +1483,16 @@ footer a {
 	padding:5px;
 }
 
-.blink_me {
-  animation: blinker 4s linear infinite;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
-
-
 /* SLIDE IN */
 
 .slideanim {
     visibility:hidden;
     visibility:visible\9;/*For old IE browsers IE6-8 */
-	margin-bottom:20px;
 }
-.slideanim.slide {                  
+.slideanim.slide {            
     visibility: visible;                  
     animation: slide 1s;
+	margin-bottom:20px;
 }
 .slideanim::after {
     /* useful when its child elements are float:left; */
