@@ -1510,6 +1510,7 @@ footer a {
         transform: translateY(0);
     } 
 }
+/* SLIDE IN ENDS */
 
 .blink_me {
   animation: blinker 1s linear infinite;
@@ -1522,5 +1523,3 @@ footer a {
     opacity: 0;
   }
 }
-
-/* SLIDE IN ENDS */
